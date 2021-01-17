@@ -1,6 +1,6 @@
 # Hack-NITP-Project
 
-Video Link:-https://youfiles.herokuapp.com/videodictionary/?m=Video_Player_Drive&state=%7B%22ids%22:%5B%221fwfC1fjreD4n0EBAFC4woVAUS2bwXv3X%22%5D,%22action%22:%22open%22,%22resourceKeys%22:%7B%7D%7D
+Video Link:-https://drive.google.com/file/d/1fwfC1fjreD4n0EBAFC4woVAUS2bwXv3X/view?usp=sharing
 
 PPT Link:-https://drive.google.com/file/d/1EfYPNC_9AeiS0P5FaodfCb_f8tItEgLD/view?usp=sharing
 
