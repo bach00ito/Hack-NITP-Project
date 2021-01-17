@@ -1,8 +1,8 @@
 # Hack-NITP-Project
 
-Video Link:-
+Video Link:-https://secure.vidyard.com/organizations/1138957/players/USCHnpHauD9sVanrerFuro?edit=true
 
-PPT Link:-
+PPT Link:-https://drive.google.com/file/d/1EfYPNC_9AeiS0P5FaodfCb_f8tItEgLD/view?usp=sharing
 
 
 
