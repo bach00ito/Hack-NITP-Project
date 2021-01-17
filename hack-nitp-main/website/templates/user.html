@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% import 'bootstrap/wtf.html' as wtf %}
+
+{% block app_content %}
+{% if user %}
+<br>
+<hr>
+{% endif %}
+<h1><center>Search Problems</center></h1>
+<div>
+	{{ wtf.quick_form(form, form_type="horizontal inline") }}
+</div>
+<br><br><br>
+<div>
+	{% if problems %}
+        <table class="table table-striped">
+		{% for problem in problems %}
+			{% include '_problem.html' %}
+		{% endfor %}
+        </table>
+	{% endif %}
+</div>
+{% endblock %}

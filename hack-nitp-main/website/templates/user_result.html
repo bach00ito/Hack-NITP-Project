@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+{% import 'bootstrap/wtf.html' as wtf %}
+
+{% block app_content %}
+
+<br>
+
+<div>
+	{{ wtf.quick_form(form, form_type="horizontal inline") }}
+</div>
+
+<br><br><br>
+<h1><center>Search Results</center></h1>
+<br><br>
+<div>
+	{% if problems %}
+        <table class="table table-light">
+        <thead style="background: #212529; color: grey; border: 20px;">
+            <tr>
+                <th scope="col">PROBLEMS</th>
+                <th scope="col">TAGS</th>
+            </tr>
+        </thead>
+        <tr><td></td></tr>
+		{% for problem in problems %}
+			{% include '_problem.html' %}
+		{% endfor %}
+        </table>
+	{% endif %}
+</div>
+
+<nav aria-label="...">
+    <ul class="pagination justify-content-between">
+        <li class="page-item{% if not prev_url %} disabled{% endif %}">
+            <a href="{{ prev_url or '#' }}" class="page-link">
+                <span aria-hidden="true">&larr;</span> Prev
+            </a>
+        </li>
+        <li class="page-item{% if not next_url %} disabled{% endif %}">
+            <a href="{{ next_url or '#' }}" class="page-link">
+                Next <span aria-hidden="true">&rarr;</span>
+            </a>
+        </li>
+    </ul>
+</nav>
+
+
+{% endblock %}
